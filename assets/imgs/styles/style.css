@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.division {
+    display: flex;
+}
+
+.contactos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    min-height: 100vh;
+    border: solid 1px gray;
+}
+
+.chat-contacto {
+    margin-top: 25px;
+    border-top: solid 1px gray; 
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-contacto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-card {
+    border-radius: 50%;
+    width: 20%;
+}
+
+.texto-card {
+    margin: 10px;
+}
+
+.boton-usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.boton-chat {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 2em;
+    background-color: #A491D2;
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.comienza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7rem;
+}
+
+.img-comienza {
+    width: 40%;
+}
+
+.nuevo-chat {
+    font-weight: bold;
+}
