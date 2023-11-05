@@ -16,6 +16,7 @@
     background-color: white;
     min-height: 100vh;
     border: solid 1px gray;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .chat-contacto {
@@ -26,6 +27,7 @@
 .card {
     display: flex;
     justify-content: space-between;
+    border-bottom: solid 1px gray; 
 }
 
 .card-contacto {
@@ -56,6 +58,7 @@
     margin-top: 2em;
     background-color: #A491D2;
     width: 70%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -68,13 +71,19 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 7rem;
+    align-content: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .img-comienza {
-    width: 40%;
+    width: 30%;
 }
 
 .nuevo-chat {
     font-weight: bold;
+}
+
+i {
+    padding: 15%;
 }
